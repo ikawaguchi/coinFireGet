@@ -26,6 +26,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		4DDDF8AD19678E7E00A6B4F3 /* EnemyObjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDF8AB19678E7E00A6B4F3 /* EnemyObjects.cpp */; };
+		4DDDF8B01968176500A6B4F3 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DDDF8AE1968176500A6B4F3 /* Enemy.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
@@ -231,6 +232,8 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4DDDF8AB19678E7E00A6B4F3 /* EnemyObjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EnemyObjects.cpp; path = ../Classes/EnemyObjects.cpp; sourceTree = "<group>"; };
 		4DDDF8AC19678E7E00A6B4F3 /* EnemyObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EnemyObjects.h; path = ../Classes/EnemyObjects.h; sourceTree = "<group>"; };
+		4DDDF8AE1968176500A6B4F3 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Enemy.cpp; path = ../Classes/Enemy.cpp; sourceTree = "<group>"; };
+		4DDDF8AF1968176500A6B4F3 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enemy.h; path = ../Classes/Enemy.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
@@ -328,9 +331,9 @@
 				503AE0FA17EB989F00D1A890 /* AppController.h */,
 				503AE0FB17EB989F00D1A890 /* AppController.mm */,
 				503AE0FC17EB989F00D1A890 /* main.m */,
-				503AE0FD17EB989F00D1A890 /* Prefix.pch */,
 				503AE0FE17EB989F00D1A890 /* RootViewController.h */,
 				503AE0FF17EB989F00D1A890 /* RootViewController.mm */,
+				503AE0FD17EB989F00D1A890 /* Prefix.pch */,
 			);
 			name = ios;
 			path = Classes;
@@ -416,6 +419,8 @@
 			children = (
 				4DDDF8AB19678E7E00A6B4F3 /* EnemyObjects.cpp */,
 				4DDDF8AC19678E7E00A6B4F3 /* EnemyObjects.h */,
+				4DDDF8AE1968176500A6B4F3 /* Enemy.cpp */,
+				4DDDF8AF1968176500A6B4F3 /* Enemy.h */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -682,6 +687,7 @@
 			files = (
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				4DDDF8B01968176500A6B4F3 /* Enemy.cpp in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				4DDDF8AD19678E7E00A6B4F3 /* EnemyObjects.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
