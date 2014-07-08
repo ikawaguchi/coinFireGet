@@ -12,25 +12,20 @@
 #include <iostream>
 #include <cocos2d.h>
 
-using namespace std;
-using namespace cocos2d;
 
 
 class EnemyObjects
 {
-#pragma mark - public
 public:
     
-#pragma mark - Setter
-    void setEnemySize(Size size){
+    void setEnemySize(cocos2d::Size size){
         enemySize = size;
     }
     void setEnemyImage(std::string imageName){
-        enemyImage = Sprite::create(imageName);
+        enemyImage = cocos2d::Sprite::create(imageName);
     }
     
     
-#pragma mark - private
 private:
 
     cocos2d::Size enemySize;

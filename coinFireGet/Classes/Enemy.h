@@ -11,10 +11,20 @@
 
 #include <iostream>
 #include "cocos2d.h"
+#include "EnemyObjects.h"
+
 
 class Enemy
 {
+public:
+    void createEnemy();
+    
+private:
+    
+    cocos2d::Vector<EnemyObjects> Enemies;
 
+    
+    
     
     
 };
