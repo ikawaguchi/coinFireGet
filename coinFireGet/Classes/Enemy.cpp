@@ -16,9 +16,7 @@ void Enemy::createEnemy(){
     
     EnemyObjects enemy;
     stringstream fileName;
-    
-    
-    
+
     enemy.setEnemyImage("enemy001.png");
     
     Enemies.pushBack(enemy);
